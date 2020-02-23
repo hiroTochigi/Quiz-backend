@@ -1,0 +1,23 @@
+{
+  "name": "Quiz-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiroTochigi/Quiz-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hiroTochigi/Quiz-backend/issues"
+  },
+  "homepage": "https://github.com/hiroTochigi/Quiz-backend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
