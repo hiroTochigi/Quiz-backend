@@ -13,8 +13,8 @@ app.use(express.urlencoded({extended:false}))
 //middleware for json file
 app.use(express.json())
 
+//access to root, send public/index.html to browser 
 app.use(express.static(__dirname + "/public"))
-
 
 //get request in root to get html
 app.get("/hello", (req, res) => {
